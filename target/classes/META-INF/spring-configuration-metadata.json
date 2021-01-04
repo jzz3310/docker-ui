@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "ftp",
+      "type": "com.jzz.tool.FtpInfo",
+      "sourceType": "com.jzz.tool.FtpInfo"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ftp.ip",
+      "type": "java.lang.String",
+      "sourceType": "com.jzz.tool.FtpInfo"
+    },
+    {
+      "name": "ftp.password",
+      "type": "java.lang.String",
+      "sourceType": "com.jzz.tool.FtpInfo"
+    },
+    {
+      "name": "ftp.port",
+      "type": "java.lang.String",
+      "sourceType": "com.jzz.tool.FtpInfo"
+    },
+    {
+      "name": "ftp.username",
+      "type": "java.lang.String",
+      "sourceType": "com.jzz.tool.FtpInfo"
+    }
+  ],
+  "hints": []
+}

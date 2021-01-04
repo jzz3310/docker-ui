@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jzz.mapper.UiDockerMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jzz.pojo.UiDocker">
+        <id column="id" property="id" />
+        <result column="docker_ip" property="dockerIp" />
+        <result column="docker_port" property="dockerPort" />
+        <result column="docker_name" property="dockerName" />
+        <result column="docker_pwd" property="dockerPwd" />
+        <result column="version_api" property="versionApi" />
+        <result column="register_url" property="registerUrl" />
+        <result column="register_email" property="registerEmail" />
+        <result column="cert_path" property="certPath" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ui_docker.id,docker_ip,docker_port,docker_name,docker_pwd,version_api,register_url,register_email,cert_path
+    </sql>
+
+    <select id="selectByIpAndPort" resultMap="BaseResultMap" parameterType="com.jzz.pojo.UiDocker">
+        select
+        <include refid="Base_Column_List"/>
+        from ui_docker left join ui_user_docker on ui_docker.id = ui_user_docker.docker_id
+        where
+        docker_ip=#{dockerIp} and docker_port=#{dockerPort} and docker_name=#{dockerName} and ui_user_docker.user_id=#{userId}
+    </select>
+</mapper>
