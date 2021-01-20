@@ -13,18 +13,27 @@
         <result column="register_url" property="registerUrl" />
         <result column="register_email" property="registerEmail" />
         <result column="cert_path" property="certPath" />
+        <result column="user_id" property="userId" />
+        <result column="status" property="status" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        ui_docker.id,docker_ip,docker_port,docker_name,docker_pwd,version_api,register_url,register_email,cert_path
+        ui_docker.id,docker_ip,docker_port,docker_name,docker_pwd,version_api,register_url,register_email,cert_path,ui_docker.user_id,ui_docker.status
     </sql>
 
-    <select id="selectByIpAndPort" resultMap="BaseResultMap" parameterType="com.jzz.pojo.UiDocker">
+    <select id="selectByIpAndPortAndUserId" resultMap="BaseResultMap" parameterType="com.jzz.pojo.UiDocker">
         select
         <include refid="Base_Column_List"/>
-        from ui_docker left join ui_user_docker on ui_docker.id = ui_user_docker.docker_id
+        from ui_docker
         where
-        docker_ip=#{dockerIp} and docker_port=#{dockerPort} and docker_name=#{dockerName} and ui_user_docker.user_id=#{userId}
+        docker_ip=#{dockerIp} and docker_port=#{dockerPort} and user_id=#{userId}
+    </select>
+
+    <select id="getDockerByUserId" resultType="com.jzz.pojo.UiDocker">
+        select
+        <include refid="Base_Column_List"/>
+        from ui_user LEFT JOIN ui_docker on ui_user.docker_id = ui_docker.id
+        where ui_user.id = #{userId}
     </select>
 </mapper>

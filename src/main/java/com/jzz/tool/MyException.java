@@ -7,7 +7,7 @@ import lombok.Getter;
  * @date:2020/12/28
  */
 @Getter
-public class MyException extends Exception{
+public class MyException extends RuntimeException{
 
     private Integer code;
     private String message;

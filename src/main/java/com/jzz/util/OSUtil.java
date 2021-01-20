@@ -10,15 +10,10 @@ public class OSUtil {
 
     public static String getCertPath () {
         String path = "";
-        //获取操作系统版本
-        Properties properties = System.getProperties();
-        String name = properties.getProperty("os.name");
-        if (name.toLowerCase().contains("windows")) {
-            path = "D:/docker/";
-        } else if (name.toLowerCase().contains("linux")) {
+        if (isLinux()) {
             path = "/data/ftp/data/admin/certs/";
-        } else if (name.toLowerCase().contains("mac")) {
-            path = "D:/docker/";
+        } else {
+            path = "F:/docker/certs/";
         }
         return path;
     }
@@ -31,6 +26,16 @@ public class OSUtil {
         } else {
             return false;
         }
+    }
+
+    public static String getSecret () {
+        String path = "";
+        if (isLinux()) {
+            path = "/data/ftp/data/admin/secret/";
+        } else {
+            path = "F:/docker/secret/";
+        }
+        return path;
     }
 
 

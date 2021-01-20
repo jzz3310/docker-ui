@@ -26,6 +26,20 @@ public class ResponseData {
         return responseData;
     }
 
+    public static ResponseData success (Object data) {
+        ResponseData responseData = new ResponseData();
+        responseData.setStatus(true);
+        responseData.setData(data);
+        return responseData;
+    }
+
+    public static ResponseData fail (Object data) {
+        ResponseData responseData = new ResponseData();
+        responseData.setStatus(false);
+        responseData.setData(data);
+        return responseData;
+    }
+
     public static ResponseData success (String message, Object data) {
         ResponseData responseData = new ResponseData();
         responseData.setStatus(true);

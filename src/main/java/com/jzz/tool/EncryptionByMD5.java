@@ -10,8 +10,8 @@ public class EncryptionByMD5 {
     private final static char hexDigits[] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
             'a', 'b', 'c', 'd', 'e', 'f' };// 用来将字节转换成16进制表示的字符
 
-    public static String getMD5(String password) {
-        byte[] source = password.getBytes();
+    public static String getMD5(String msg) {
+        byte[] source = msg.getBytes();
         String s = null;
         try {
             java.security.MessageDigest md = java.security.MessageDigest

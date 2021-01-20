@@ -4,6 +4,551 @@
       "name": "ftp",
       "type": "com.jzz.tool.FtpInfo",
       "sourceType": "com.jzz.tool.FtpInfo"
+    },
+    {
+      "name": "my.test",
+      "type": "com.jzz.bean.MyTest",
+      "sourceType": "com.jzz.bean.MyTest"
+    },
+    {
+      "name": "spring.datasource.xa",
+      "type": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Xa",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "sourceMethod": "getXa()"
+    },
+    {
+      "name": "spring.datasource.xa",
+      "type": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Xa",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "sourceMethod": "getXa()"
+    },
+    {
+      "name": "spring.datasource.xa",
+      "type": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Xa",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "sourceMethod": "getXa()"
+    },
+    {
+      "name": "spring.datasource.xa",
+      "type": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Xa",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "sourceMethod": "getXa()"
+    },
+    {
+      "name": "spring.datasource.xa",
+      "type": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Xa",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "sourceMethod": "getXa()"
+    },
+    {
+      "name": "spring.datasource.xa",
+      "type": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Xa",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "sourceMethod": "getXa()"
+    },
+    {
+      "name": "spring.datasource.xa",
+      "type": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Xa",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "sourceMethod": "getXa()"
+    },
+    {
+      "name": "spring.datasource.xa",
+      "type": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Xa",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "sourceMethod": "getXa()"
+    },
+    {
+      "name": "spring.datasource.xa",
+      "type": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Xa",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "sourceMethod": "getXa()"
+    },
+    {
+      "name": "spring.datasource.xa",
+      "type": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Xa",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "sourceMethod": "getXa()"
+    },
+    {
+      "name": "spring.datasource.xa",
+      "type": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Xa",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "sourceMethod": "getXa()"
+    },
+    {
+      "name": "spring.datasource.xa",
+      "type": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Xa",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "sourceMethod": "getXa()"
+    },
+    {
+      "name": "spring.datasource.xa",
+      "type": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Xa",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "sourceMethod": "getXa()"
+    },
+    {
+      "name": "spring.datasource.xa",
+      "type": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Xa",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+      "sourceMethod": "getXa()"
+    },
+    {
+      "name": "spring.redis.cluster",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Cluster",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getCluster()"
+    },
+    {
+      "name": "spring.redis.cluster",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Cluster",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getCluster()"
+    },
+    {
+      "name": "spring.redis.cluster",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Cluster",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getCluster()"
+    },
+    {
+      "name": "spring.redis.cluster",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Cluster",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getCluster()"
+    },
+    {
+      "name": "spring.redis.cluster",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Cluster",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getCluster()"
+    },
+    {
+      "name": "spring.redis.cluster",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Cluster",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getCluster()"
+    },
+    {
+      "name": "spring.redis.cluster",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Cluster",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getCluster()"
+    },
+    {
+      "name": "spring.redis.cluster",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Cluster",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getCluster()"
+    },
+    {
+      "name": "spring.redis.cluster",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Cluster",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getCluster()"
+    },
+    {
+      "name": "spring.redis.cluster",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Cluster",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getCluster()"
+    },
+    {
+      "name": "spring.redis.cluster",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Cluster",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getCluster()"
+    },
+    {
+      "name": "spring.redis.cluster",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Cluster",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getCluster()"
+    },
+    {
+      "name": "spring.redis.cluster",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Cluster",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getCluster()"
+    },
+    {
+      "name": "spring.redis.cluster",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Cluster",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getCluster()"
+    },
+    {
+      "name": "spring.redis.cluster",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Cluster",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getCluster()"
+    },
+    {
+      "name": "spring.redis.cluster",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Cluster",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getCluster()"
+    },
+    {
+      "name": "spring.redis.cluster",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Cluster",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getCluster()"
+    },
+    {
+      "name": "spring.redis.cluster",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Cluster",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getCluster()"
+    },
+    {
+      "name": "spring.redis.cluster",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Cluster",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getCluster()"
+    },
+    {
+      "name": "spring.redis.jedis",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Jedis",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getJedis()"
+    },
+    {
+      "name": "spring.redis.jedis",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Jedis",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getJedis()"
+    },
+    {
+      "name": "spring.redis.jedis",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Jedis",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getJedis()"
+    },
+    {
+      "name": "spring.redis.jedis",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Jedis",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getJedis()"
+    },
+    {
+      "name": "spring.redis.jedis",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Jedis",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getJedis()"
+    },
+    {
+      "name": "spring.redis.jedis",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Jedis",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getJedis()"
+    },
+    {
+      "name": "spring.redis.jedis",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Jedis",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getJedis()"
+    },
+    {
+      "name": "spring.redis.jedis",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Jedis",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getJedis()"
+    },
+    {
+      "name": "spring.redis.jedis",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Jedis",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getJedis()"
+    },
+    {
+      "name": "spring.redis.jedis",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Jedis",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getJedis()"
+    },
+    {
+      "name": "spring.redis.jedis",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Jedis",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getJedis()"
+    },
+    {
+      "name": "spring.redis.jedis",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Jedis",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getJedis()"
+    },
+    {
+      "name": "spring.redis.jedis",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Jedis",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getJedis()"
+    },
+    {
+      "name": "spring.redis.jedis",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Jedis",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getJedis()"
+    },
+    {
+      "name": "spring.redis.jedis",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Jedis",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getJedis()"
+    },
+    {
+      "name": "spring.redis.jedis",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Jedis",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getJedis()"
+    },
+    {
+      "name": "spring.redis.jedis",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Jedis",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getJedis()"
+    },
+    {
+      "name": "spring.redis.jedis",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Jedis",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getJedis()"
+    },
+    {
+      "name": "spring.redis.jedis",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Jedis",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getJedis()"
+    },
+    {
+      "name": "spring.redis.lettuce",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Lettuce",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getLettuce()"
+    },
+    {
+      "name": "spring.redis.lettuce",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Lettuce",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getLettuce()"
+    },
+    {
+      "name": "spring.redis.lettuce",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Lettuce",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getLettuce()"
+    },
+    {
+      "name": "spring.redis.lettuce",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Lettuce",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getLettuce()"
+    },
+    {
+      "name": "spring.redis.lettuce",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Lettuce",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getLettuce()"
+    },
+    {
+      "name": "spring.redis.lettuce",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Lettuce",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getLettuce()"
+    },
+    {
+      "name": "spring.redis.lettuce",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Lettuce",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getLettuce()"
+    },
+    {
+      "name": "spring.redis.lettuce",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Lettuce",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getLettuce()"
+    },
+    {
+      "name": "spring.redis.lettuce",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Lettuce",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getLettuce()"
+    },
+    {
+      "name": "spring.redis.lettuce",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Lettuce",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getLettuce()"
+    },
+    {
+      "name": "spring.redis.lettuce",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Lettuce",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getLettuce()"
+    },
+    {
+      "name": "spring.redis.lettuce",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Lettuce",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getLettuce()"
+    },
+    {
+      "name": "spring.redis.lettuce",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Lettuce",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getLettuce()"
+    },
+    {
+      "name": "spring.redis.lettuce",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Lettuce",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getLettuce()"
+    },
+    {
+      "name": "spring.redis.lettuce",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Lettuce",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getLettuce()"
+    },
+    {
+      "name": "spring.redis.lettuce",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Lettuce",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getLettuce()"
+    },
+    {
+      "name": "spring.redis.lettuce",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Lettuce",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getLettuce()"
+    },
+    {
+      "name": "spring.redis.lettuce",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Lettuce",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getLettuce()"
+    },
+    {
+      "name": "spring.redis.lettuce",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Lettuce",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getLettuce()"
+    },
+    {
+      "name": "spring.redis.sentinel",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Sentinel",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getSentinel()"
+    },
+    {
+      "name": "spring.redis.sentinel",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Sentinel",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getSentinel()"
+    },
+    {
+      "name": "spring.redis.sentinel",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Sentinel",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getSentinel()"
+    },
+    {
+      "name": "spring.redis.sentinel",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Sentinel",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getSentinel()"
+    },
+    {
+      "name": "spring.redis.sentinel",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Sentinel",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getSentinel()"
+    },
+    {
+      "name": "spring.redis.sentinel",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Sentinel",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getSentinel()"
+    },
+    {
+      "name": "spring.redis.sentinel",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Sentinel",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getSentinel()"
+    },
+    {
+      "name": "spring.redis.sentinel",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Sentinel",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getSentinel()"
+    },
+    {
+      "name": "spring.redis.sentinel",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Sentinel",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getSentinel()"
+    },
+    {
+      "name": "spring.redis.sentinel",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Sentinel",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getSentinel()"
+    },
+    {
+      "name": "spring.redis.sentinel",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Sentinel",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getSentinel()"
+    },
+    {
+      "name": "spring.redis.sentinel",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Sentinel",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getSentinel()"
+    },
+    {
+      "name": "spring.redis.sentinel",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Sentinel",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getSentinel()"
+    },
+    {
+      "name": "spring.redis.sentinel",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Sentinel",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getSentinel()"
+    },
+    {
+      "name": "spring.redis.sentinel",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Sentinel",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getSentinel()"
+    },
+    {
+      "name": "spring.redis.sentinel",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Sentinel",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getSentinel()"
+    },
+    {
+      "name": "spring.redis.sentinel",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Sentinel",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getSentinel()"
+    },
+    {
+      "name": "spring.redis.sentinel",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Sentinel",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getSentinel()"
+    },
+    {
+      "name": "spring.redis.sentinel",
+      "type": "org.springframework.boot.autoconfigure.data.redis.RedisProperties$Sentinel",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties",
+      "sourceMethod": "getSentinel()"
     }
   ],
   "properties": [
@@ -26,6 +571,2011 @@
       "name": "ftp.username",
       "type": "java.lang.String",
       "sourceType": "com.jzz.tool.FtpInfo"
+    },
+    {
+      "name": "my.test.name",
+      "type": "java.lang.String",
+      "sourceType": "com.jzz.bean.MyTest"
+    },
+    {
+      "name": "my.test.password",
+      "type": "java.lang.String",
+      "sourceType": "com.jzz.bean.MyTest"
+    },
+    {
+      "name": "spring.datasource.continue-on-error",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.continue-on-error",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.continue-on-error",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.continue-on-error",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.continue-on-error",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.continue-on-error",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.continue-on-error",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.continue-on-error",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.continue-on-error",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.continue-on-error",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.continue-on-error",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.continue-on-error",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.continue-on-error",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.continue-on-error",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.data-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.generate-unique-name",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.generate-unique-name",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.generate-unique-name",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.generate-unique-name",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.generate-unique-name",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.generate-unique-name",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.generate-unique-name",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.generate-unique-name",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.generate-unique-name",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.generate-unique-name",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.generate-unique-name",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.generate-unique-name",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.generate-unique-name",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.generate-unique-name",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.initialization-mode",
+      "type": "org.springframework.boot.jdbc.DataSourceInitializationMode",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.initialization-mode",
+      "type": "org.springframework.boot.jdbc.DataSourceInitializationMode",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.initialization-mode",
+      "type": "org.springframework.boot.jdbc.DataSourceInitializationMode",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.initialization-mode",
+      "type": "org.springframework.boot.jdbc.DataSourceInitializationMode",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.initialization-mode",
+      "type": "org.springframework.boot.jdbc.DataSourceInitializationMode",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.initialization-mode",
+      "type": "org.springframework.boot.jdbc.DataSourceInitializationMode",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.initialization-mode",
+      "type": "org.springframework.boot.jdbc.DataSourceInitializationMode",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.initialization-mode",
+      "type": "org.springframework.boot.jdbc.DataSourceInitializationMode",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.initialization-mode",
+      "type": "org.springframework.boot.jdbc.DataSourceInitializationMode",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.initialization-mode",
+      "type": "org.springframework.boot.jdbc.DataSourceInitializationMode",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.initialization-mode",
+      "type": "org.springframework.boot.jdbc.DataSourceInitializationMode",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.initialization-mode",
+      "type": "org.springframework.boot.jdbc.DataSourceInitializationMode",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.initialization-mode",
+      "type": "org.springframework.boot.jdbc.DataSourceInitializationMode",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.initialization-mode",
+      "type": "org.springframework.boot.jdbc.DataSourceInitializationMode",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.jndi-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.jndi-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.jndi-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.jndi-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.jndi-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.jndi-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.jndi-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.jndi-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.jndi-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.jndi-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.jndi-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.jndi-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.jndi-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.jndi-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.platform",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.platform",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.platform",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.platform",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.platform",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.platform",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.platform",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.platform",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.platform",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.platform",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.platform",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.platform",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.platform",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.platform",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.schema-username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.separator",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.separator",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.separator",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.separator",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.separator",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.separator",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.separator",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.separator",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.separator",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.separator",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.separator",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.separator",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.separator",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.separator",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.sql-script-encoding",
+      "type": "java.nio.charset.Charset",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.sql-script-encoding",
+      "type": "java.nio.charset.Charset",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.sql-script-encoding",
+      "type": "java.nio.charset.Charset",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.sql-script-encoding",
+      "type": "java.nio.charset.Charset",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.sql-script-encoding",
+      "type": "java.nio.charset.Charset",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.sql-script-encoding",
+      "type": "java.nio.charset.Charset",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.sql-script-encoding",
+      "type": "java.nio.charset.Charset",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.sql-script-encoding",
+      "type": "java.nio.charset.Charset",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.sql-script-encoding",
+      "type": "java.nio.charset.Charset",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.sql-script-encoding",
+      "type": "java.nio.charset.Charset",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.sql-script-encoding",
+      "type": "java.nio.charset.Charset",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.sql-script-encoding",
+      "type": "java.nio.charset.Charset",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.sql-script-encoding",
+      "type": "java.nio.charset.Charset",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.sql-script-encoding",
+      "type": "java.nio.charset.Charset",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.type",
+      "type": "java.lang.Class<? extends javax.sql.DataSource>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.type",
+      "type": "java.lang.Class<? extends javax.sql.DataSource>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.type",
+      "type": "java.lang.Class<? extends javax.sql.DataSource>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.type",
+      "type": "java.lang.Class<? extends javax.sql.DataSource>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.type",
+      "type": "java.lang.Class<? extends javax.sql.DataSource>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.type",
+      "type": "java.lang.Class<? extends javax.sql.DataSource>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.type",
+      "type": "java.lang.Class<? extends javax.sql.DataSource>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.type",
+      "type": "java.lang.Class<? extends javax.sql.DataSource>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.type",
+      "type": "java.lang.Class<? extends javax.sql.DataSource>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.type",
+      "type": "java.lang.Class<? extends javax.sql.DataSource>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.type",
+      "type": "java.lang.Class<? extends javax.sql.DataSource>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.type",
+      "type": "java.lang.Class<? extends javax.sql.DataSource>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.type",
+      "type": "java.lang.Class<? extends javax.sql.DataSource>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.type",
+      "type": "java.lang.Class<? extends javax.sql.DataSource>",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+    },
+    {
+      "name": "spring.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.database",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.host",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.password",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.ssl",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.timeout",
+      "type": "java.time.Duration",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.timeout",
+      "type": "java.time.Duration",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.timeout",
+      "type": "java.time.Duration",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.timeout",
+      "type": "java.time.Duration",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.timeout",
+      "type": "java.time.Duration",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.timeout",
+      "type": "java.time.Duration",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.timeout",
+      "type": "java.time.Duration",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.timeout",
+      "type": "java.time.Duration",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.timeout",
+      "type": "java.time.Duration",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.timeout",
+      "type": "java.time.Duration",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.timeout",
+      "type": "java.time.Duration",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.timeout",
+      "type": "java.time.Duration",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.timeout",
+      "type": "java.time.Duration",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.timeout",
+      "type": "java.time.Duration",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.timeout",
+      "type": "java.time.Duration",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.timeout",
+      "type": "java.time.Duration",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.timeout",
+      "type": "java.time.Duration",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.timeout",
+      "type": "java.time.Duration",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.timeout",
+      "type": "java.time.Duration",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
+    },
+    {
+      "name": "spring.redis.url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.data.redis.RedisProperties"
     }
   ],
   "hints": []

@@ -14,5 +14,7 @@ import java.util.List;
 @Mapper
 public interface UiDockerMapper extends BaseMapper<UiDocker> {
 
-    List<UiDocker> selectByIpAndPort(UiDocker uiDocker);
+    List<UiDocker> selectByIpAndPortAndUserId(UiDocker uiDocker);
+
+    UiDocker getDockerByUserId(String userId);
 }

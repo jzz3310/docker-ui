@@ -111,8 +111,17 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
-
+        <!--  aop  -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+        <!--  es  -->
+        <dependency>
+            <groupId>org.elasticsearch</groupId>
+            <artifactId>elasticsearch</artifactId>
+            <version>6.5.4</version>
+        </dependency>
     </dependencies>
 
 

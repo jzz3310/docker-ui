@@ -2,12 +2,14 @@ package com.jzz.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.github.dockerjava.api.DockerClient;
+import com.jzz.bean.DockerClientBeans;
 import com.jzz.data.ResponseData;
 import com.jzz.mapper.UiDockerMapper;
-import com.jzz.mapper.UiUserDockerMapper;
+import com.jzz.mapper.UiUserMapper;
 import com.jzz.pojo.UiDocker;
-import com.jzz.pojo.UiUserDocker;
+import com.jzz.pojo.UiUser;
 import com.jzz.service.UiDockerService;
+import com.jzz.tool.DockerExec;
 import com.jzz.tool.MyException;
 import com.jzz.tool.ResultEnum;
 import com.jzz.util.DockerClientUtil;
@@ -30,7 +32,9 @@ public class UiDockerServiceImpl extends ServiceImpl<UiDockerMapper,UiDocker> im
     @Autowired
     private RedisTemplate redisTemplate;
     @Autowired
-    private UiUserDockerMapper uiUserDockerMapper;
+    private UiUserMapper uiUserMapper;
+    @Autowired
+    private DockerClientBeans clientBeans;
 
     @Override
     public ResponseData connect(UiDocker uiDocker) throws MyException {
@@ -39,7 +43,7 @@ public class UiDockerServiceImpl extends ServiceImpl<UiDockerMapper,UiDocker> im
         listOperations.range(0,listOperations.size());
 
         try {
-            dockerClient = DockerClientUtil.connect(uiDocker);
+            dockerClient = DockerClientUtil.safetyConnection(uiDocker);
         } catch (Exception ex) {
             throw new MyException(ResultEnum.EDITUSER_ID_NULL);
         }
@@ -51,17 +55,33 @@ public class UiDockerServiceImpl extends ServiceImpl<UiDockerMapper,UiDocker> im
     public ResponseData register(UiDocker uiDocker) throws MyException {
         String ip = HostIpUtil.getIp(uiDocker.getDockerIp());
         uiDocker.setDockerIp(ip);
-        List<UiDocker> list =  baseMapper.selectByIpAndPort(uiDocker);
+        List<UiDocker> list =  baseMapper.selectByIpAndPortAndUserId(uiDocker);
         if (list.size() > 0) {
             return ResponseData.fail("已录入此信息");
         }
         baseMapper.insert(uiDocker);
-        UiUserDocker uiUserDocker = new UiUserDocker();
-        uiUserDocker.setDockerId(uiDocker.getId());
-        uiUserDocker.setStatus(1);
-        uiUserDocker.setUserId(uiDocker.getUserId());
-        uiUserDockerMapper.insert(uiUserDocker);
+        UiUser uiUser = new UiUser();
+        uiUser.setId(uiDocker.getUserId());
+        uiUser.setDockerId(uiDocker.getId());
+        uiUserMapper.updateById(uiUser);
         return ResponseData.success("保存成功");
+    }
+
+    @Override
+    public UiDocker getDockerByUserId(String userId) {
+        UiDocker uiDocker = baseMapper.getDockerByUserId(userId);
+        return uiDocker;
+    }
+
+    @Override
+    public DockerExec getClient(String userId) {
+        DockerExec dockerClient = clientBeans.get(userId);
+        if (null == dockerClient) {
+            UiDocker uiDocker = getDockerByUserId(userId);
+            dockerClient = DockerClientUtil.safetyConnection(uiDocker);
+            clientBeans.addClient(userId,dockerClient);
+        }
+        return dockerClient;
     }
 
 }

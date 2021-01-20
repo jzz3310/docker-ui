@@ -1,8 +1,6 @@
 package com.jzz.pojo;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -12,6 +10,7 @@ import java.io.Serializable;
  * @date:2020/12/29
  */
 @Data
+@TableName("ui_docker")
 public class UiDocker implements Serializable {
     @TableId(value = "id", type = IdType.AUTO)
     private Long id;
@@ -23,8 +22,9 @@ public class UiDocker implements Serializable {
     private String registerUrl;
     private String registerEmail;
     private String certPath;
-
-    @TableField(exist = false)
     private String userId;
+    @TableLogic()
+    private int status;
+
 
 }

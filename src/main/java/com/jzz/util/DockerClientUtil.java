@@ -7,6 +7,7 @@ import com.github.dockerjava.core.DockerClientBuilder;
 import com.github.dockerjava.core.DockerClientConfig;
 import com.github.dockerjava.jaxrs.JerseyDockerCmdExecFactory;
 import com.jzz.pojo.UiDocker;
+import com.jzz.tool.DockerExec;
 
 
 /**
@@ -19,24 +20,26 @@ public class DockerClientUtil {
      * 连接docker服务器
      * @return
      */
-    private static DockerClient safetyConnection(UiDocker uiDocker){
+    public static DockerExec safetyConnection(UiDocker uiDocker){
         //进行安全认证
         DockerClientConfig config = DefaultDockerClientConfig.createDefaultConfigBuilder().withDockerTlsVerify(true)
-                .withDockerCertPath(uiDocker.getCertPath()).withDockerHost("tcp://"+uiDocker.getDockerIp()+":"+uiDocker.getDockerPort())
-                .withDockerConfig(uiDocker.getCertPath()).withApiVersion(uiDocker.getVersionApi()).withRegistryUrl(uiDocker.getRegisterUrl())
+                .withDockerCertPath(uiDocker.getCertPath()+"/"+uiDocker.getDockerIp()).withDockerHost("tcp://"+uiDocker.getDockerIp()+":"+uiDocker.getDockerPort())
+                .withDockerConfig(uiDocker.getCertPath()+"/"+uiDocker.getDockerIp()).withApiVersion(uiDocker.getVersionApi()).withRegistryUrl(uiDocker.getRegisterUrl())
                 .withRegistryUsername(uiDocker.getDockerName()).withRegistryPassword(uiDocker.getDockerPwd())
                 .withRegistryEmail(uiDocker.getRegisterEmail()).build();
         DockerCmdExecFactory dockerCmdExecFactory =  new JerseyDockerCmdExecFactory()
-                .withReadTimeout(1000)
+                .withReadTimeout(5000)
                 .withConnectTimeout(1000)
                 .withMaxTotalConnections(100)
                 .withMaxPerRouteConnections(10);
         //进行连接
         DockerClient dockerClient = DockerClientBuilder.getInstance(config).withDockerCmdExecFactory(dockerCmdExecFactory).build();
-        return dockerClient;
+        DockerExec dockerExec = new DockerExec();
+        dockerExec.setDockerClient(dockerClient);
+        return dockerExec;
     }
 
-    public static DockerClient connect(UiDocker uiDocker){
+    public DockerExec connect(UiDocker uiDocker){
         //未进行安全认证
         DockerClientConfig config = DefaultDockerClientConfig.createDefaultConfigBuilder().withDockerTlsVerify(false)
                 .withDockerHost("tcp://"+uiDocker.getDockerIp()+":"+uiDocker.getDockerPort())
@@ -44,14 +47,17 @@ public class DockerClientUtil {
                 .withRegistryUsername(uiDocker.getDockerName()).withRegistryPassword(uiDocker.getDockerPwd())
                 .withRegistryEmail(uiDocker.getRegisterEmail()).build();
         DockerCmdExecFactory dockerCmdExecFactory =  new JerseyDockerCmdExecFactory()
-                .withReadTimeout(1000)
+                .withReadTimeout(5000)
                 .withConnectTimeout(1000)
                 .withMaxTotalConnections(100)
                 .withMaxPerRouteConnections(10);
         //进行连接
         DockerClient dockerClient = DockerClientBuilder.getInstance(config).withDockerCmdExecFactory(dockerCmdExecFactory).build();
-        return dockerClient;
+        DockerExec dockerExec = new DockerExec();
+        dockerExec.setDockerClient(dockerClient);
+        return dockerExec;
     }
+
 
     public static void main(String[] args) {
         UiDocker uiDocker = new UiDocker();
@@ -59,7 +65,7 @@ public class DockerClientUtil {
         uiDocker.setDockerPort(2375);
         uiDocker.setCertPath("F:/docker/");
         DockerClient dockerClient = DockerClientUtil.safetyConnection(uiDocker);
-        System.out.println(dockerClient.listImagesCmd().exec());
+        System.out.println(dockerClient.searchImagesCmd("jdk").exec());
 
 
     }

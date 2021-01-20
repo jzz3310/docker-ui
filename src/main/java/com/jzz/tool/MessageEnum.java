@@ -8,7 +8,11 @@ import lombok.Getter;
  */
 @Getter
 public enum MessageEnum {
-    REGISTER_SUCCESS(101,"注册成功"),
+    REGISTER_SUCCESS(1000,"注册成功"),
+    BUILD_TAG_SUCCESS(1001,"构建tag成功"),
+    REMOVE_IMAGE_SUCCESS(1002,"删除镜像成功")
+
+
     ;
 
 
