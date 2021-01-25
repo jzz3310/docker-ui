@@ -2,6 +2,7 @@ package com.jzz;
 
 import com.github.dockerjava.api.DockerClient;
 import com.jzz.pojo.UiDocker;
+import com.jzz.tool.DockerExec;
 import com.jzz.tool.EncryptionByMD5;
 import com.jzz.util.DockerClientUtil;
 import com.jzz.util.HostIpUtil;
@@ -45,7 +46,7 @@ public class RedisTest {
         uiDocker.setDockerIp("42.192.120.164");
         uiDocker.setDockerPort(2375);
         uiDocker.setCertPath("F:/docker/");
-        DockerClient connect = DockerClientUtil.safetyConnection(uiDocker);
+        DockerExec connect = DockerClientUtil.safetyConnection(uiDocker);
         BoundValueOperations boundValueOperations = redisTemplate.boundValueOps(EncryptionByMD5.getMD5("123" + "dockerclient"));
         if (null == boundValueOperations.get()) {
             boundValueOperations.set(connect.toString());

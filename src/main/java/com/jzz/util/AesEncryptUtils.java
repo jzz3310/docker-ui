@@ -60,11 +60,4 @@ public class AesEncryptUtils {
         return null;
     }
 
-
-    public static void main(String[] args) throws Exception {
-        System.out.println(encrypt("123456"));
-        System.out.println(encrypt("duser@1234"));
-        System.out.println(decrypt("l4bWnPzCt8opH8PLkDrVbA=="));
-    }
-
 }

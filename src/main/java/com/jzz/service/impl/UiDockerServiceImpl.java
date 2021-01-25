@@ -38,7 +38,7 @@ public class UiDockerServiceImpl extends ServiceImpl<UiDockerMapper,UiDocker> im
 
     @Override
     public ResponseData connect(UiDocker uiDocker) throws MyException {
-        DockerClient dockerClient = null;
+        DockerExec dockerClient = null;
         BoundListOperations listOperations = redisTemplate.boundListOps(HostIpUtil.getIp(uiDocker.getDockerIp()));
         listOperations.range(0,listOperations.size());
 

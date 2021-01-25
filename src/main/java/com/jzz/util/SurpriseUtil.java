@@ -11,19 +11,6 @@ public class SurpriseUtil {
     private static final Integer PRIZE_01 = 3000;
     private static final Integer PRIZE_02 = 10000;
 
-    public static void main(String[] args) {
-        ArrayList<Integer> list = new ArrayList<>();
-        for (int i = 0; i < 30 ; i ++) {
-            list.add(i*1000);
-        }
-
-        for (Integer pSize : list) {
-            System.out.println("当前人数："+pSize+"--->剩余："+isSurprise(pSize)+"人抽奖");
-        }
-
-
-    }
-
     public static int isSurprise (Integer pSize) {
         Integer size = 0;
         //找到当前人数的下一次抽奖的人数

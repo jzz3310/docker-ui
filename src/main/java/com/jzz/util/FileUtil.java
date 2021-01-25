@@ -79,20 +79,4 @@ public class FileUtil {
         return OSUtil.getCertPath();
     }
 
-
-
-
-
-    public static void main(String[] args) throws IOException {
-//        FTPClient ftp = new FTPClient();
-//        ftp.connect("jzzcloud.club",21);
-//        ftp.login("admin","admin");
-//        ftp.enterLocalPassiveMode();
-//        boolean b = ftp.changeWorkingDirectory("/cert");
-//        boolean b1 = ftp.makeDirectory("/cert");
-//        String s = ftp.printWorkingDirectory();
-//        System.out.println(b+"--"+b1);
-
-    }
-
 }

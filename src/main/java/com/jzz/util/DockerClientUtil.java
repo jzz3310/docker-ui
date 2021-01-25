@@ -58,15 +58,4 @@ public class DockerClientUtil {
         return dockerExec;
     }
 
-
-    public static void main(String[] args) {
-        UiDocker uiDocker = new UiDocker();
-        uiDocker.setDockerIp("42.192.120.164");
-        uiDocker.setDockerPort(2375);
-        uiDocker.setCertPath("F:/docker/");
-        DockerClient dockerClient = DockerClientUtil.safetyConnection(uiDocker);
-        System.out.println(dockerClient.searchImagesCmd("jdk").exec());
-
-
-    }
 }

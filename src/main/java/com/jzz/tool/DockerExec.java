@@ -9,7 +9,6 @@ import lombok.Data;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -21,14 +20,37 @@ import java.util.stream.Collectors;
 public class DockerExec implements DockerClient {
     private DockerClient dockerClient;
 
-    public boolean isExistTag(String imageName) {
-        List<Image> collect = listImagesCmd().exec().stream().filter(image -> Arrays.asList(image.getRepoTags()).contains(imageName)).collect(Collectors.toList());
+    public List<ImageVo> listImages() {
+        List<Image> exec = listImagesCmd().exec();
+        List<ImageVo> imageVos = ImageVo.asImages(exec);
+        return imageVos;
+    }
+
+    public boolean isExistLocalTag(String imageName) {
+        List<ImageVo> collect = searchLocalImagesByTag(imageName);
         if (null != collect && collect.size() > 0) {
             return true;
         }
         return false;
     }
 
+    public List<ImageVo> searchLocalImagesByTag(String imageName) {
+        List<ImageVo> exec = listImages();
+        exec = exec.stream().filter(imageVo -> imageVo.getRepoTag().contains(imageName)).collect(Collectors.toList());
+        return exec;
+    }
+
+    public List<SearchItem> searchImagesByTag(String s) {
+        return searchImagesCmd(s).exec();
+    }
+
+    public Void tagNew(String s, String s1, String s2) {
+        return dockerClient.tagImageCmd(s,s1,s2).exec();
+    }
+
+    public Void removeImage(String s) {
+        return dockerClient.removeImageCmd(s).exec();
+    }
 
 
     //---------------------------------------------------overried-----------------------------------------------------------
