@@ -19,10 +19,10 @@ public class FileUtil {
         FTPClient ftp = FtpBean.connect();
         String path = HostIpUtil.getIp(dockerIp);
         try {
-            if (!ftp.changeWorkingDirectory("/cert/"+path)) {
-                ftp.makeDirectory("/cert/"+path);
+            if (!ftp.changeWorkingDirectory("/certs/"+path)) {
+                ftp.makeDirectory("/certs/"+path);
             }
-            ftp.changeWorkingDirectory("/cert/"+path);
+            ftp.changeWorkingDirectory("/certs/"+path);
             ftp.setFileType(FTPClient.BINARY_FILE_TYPE);
             ftp.storeFile(filename, inputStream);
         } catch (IOException e) {

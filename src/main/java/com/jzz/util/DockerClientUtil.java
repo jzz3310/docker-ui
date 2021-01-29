@@ -8,6 +8,9 @@ import com.github.dockerjava.core.DockerClientConfig;
 import com.github.dockerjava.jaxrs.JerseyDockerCmdExecFactory;
 import com.jzz.pojo.UiDocker;
 import com.jzz.tool.DockerExec;
+import com.jzz.tool.ImageVo;
+
+import java.util.List;
 
 
 /**
@@ -23,8 +26,8 @@ public class DockerClientUtil {
     public static DockerExec safetyConnection(UiDocker uiDocker){
         //进行安全认证
         DockerClientConfig config = DefaultDockerClientConfig.createDefaultConfigBuilder().withDockerTlsVerify(true)
-                .withDockerCertPath(uiDocker.getCertPath()+"/"+uiDocker.getDockerIp()).withDockerHost("tcp://"+uiDocker.getDockerIp()+":"+uiDocker.getDockerPort())
-                .withDockerConfig(uiDocker.getCertPath()+"/"+uiDocker.getDockerIp()).withApiVersion(uiDocker.getVersionApi()).withRegistryUrl(uiDocker.getRegisterUrl())
+                .withDockerCertPath(OSUtil.getCertPath()+uiDocker.getDockerIp()).withDockerHost("tcp://"+uiDocker.getDockerIp()+":"+uiDocker.getDockerPort())
+                .withDockerConfig(OSUtil.getCertPath()+uiDocker.getDockerIp()).withApiVersion(uiDocker.getVersionApi()).withRegistryUrl(uiDocker.getRegisterUrl())
                 .withRegistryUsername(uiDocker.getDockerName()).withRegistryPassword(uiDocker.getDockerPwd())
                 .withRegistryEmail(uiDocker.getRegisterEmail()).build();
         DockerCmdExecFactory dockerCmdExecFactory =  new JerseyDockerCmdExecFactory()
@@ -58,4 +61,17 @@ public class DockerClientUtil {
         return dockerExec;
     }
 
+
+    public static void main(String[] args) throws InterruptedException {
+        UiDocker uiDocker = new UiDocker();
+        uiDocker.setDockerIp("42.192.120.164");
+        uiDocker.setDockerPort(2375);
+        DockerExec dockerClient = DockerClientUtil.safetyConnection(uiDocker);
+        List<ImageVo> imageVos = dockerClient.listImages();
+        System.out.println(imageVos.size());
+
+        dockerClient.pullImage("docker.io/mongo");
+
+
+    }
 }

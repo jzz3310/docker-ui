@@ -30,8 +30,6 @@ import java.util.List;
 public class UiDockerServiceImpl extends ServiceImpl<UiDockerMapper,UiDocker> implements UiDockerService {
 
     @Autowired
-    private RedisTemplate redisTemplate;
-    @Autowired
     private UiUserMapper uiUserMapper;
     @Autowired
     private DockerClientBeans clientBeans;
@@ -39,8 +37,6 @@ public class UiDockerServiceImpl extends ServiceImpl<UiDockerMapper,UiDocker> im
     @Override
     public ResponseData connect(UiDocker uiDocker) throws MyException {
         DockerExec dockerClient = null;
-        BoundListOperations listOperations = redisTemplate.boundListOps(HostIpUtil.getIp(uiDocker.getDockerIp()));
-        listOperations.range(0,listOperations.size());
 
         try {
             dockerClient = DockerClientUtil.safetyConnection(uiDocker);

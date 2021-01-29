@@ -23,6 +23,7 @@ public enum ResultEnum {
     BUILD_TAG_EXIST(112,"新构建的tag已存在"),
     REMOVE_IMAGE_FAILED(113,"删除镜像失败"),
     NOT_FOUND_IMAGE(114,"未找到该镜像"),
+    NOT_FOUND_INFO(114,"未找到连接信息"),
 
     ;
 

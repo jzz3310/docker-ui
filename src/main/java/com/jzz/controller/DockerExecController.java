@@ -1,13 +1,14 @@
 package com.jzz.controller;
 
-import com.github.dockerjava.api.DockerClient;
 import com.github.dockerjava.api.exception.NotFoundException;
-import com.github.dockerjava.api.model.Image;
 import com.github.dockerjava.api.model.SearchItem;
 import com.jzz.bean.MyTest;
 import com.jzz.data.ResponseData;
+import com.jzz.pojo.UiUser;
 import com.jzz.service.UiDockerService;
+import com.jzz.service.UiUserService;
 import com.jzz.tool.*;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.BoundValueOperations;
@@ -21,6 +22,7 @@ import java.util.List;
  * @author:jzz
  * @date:2021/1/5
  */
+@Slf4j
 @RestController
 @RequestMapping("/exec/image")
 public class DockerExecController {
@@ -28,9 +30,21 @@ public class DockerExecController {
     @Autowired
     private UiDockerService uiDockerService;
     @Autowired
+    private UiUserService uiUserService;
+    @Autowired
     private RedisTemplate redisTemplate;
     @Autowired
     private MyTest myTest;
+
+    @GetMapping("info/{userId}")
+    public boolean existInfo (@PathVariable("userId") String userId) {
+        List<UiUser> list = uiUserService.lambdaQuery().eq(UiUser::getId, userId).list();
+        if (null != list || list.size() < 1) {
+            return false;
+        } else {
+            return true;
+        }
+    }
 
 
     @GetMapping("list/{userId}")
@@ -40,6 +54,7 @@ public class DockerExecController {
             List<ImageVo> imageVos = connect.listImages();
             return ResponseData.success(imageVos);
         } catch (Exception exception) {
+            log.error("查询镜像失败",exception);
             return ResponseData.fail(ResultEnum.CONNECT_DOCKER_TIMEOUT.getMessage());
         }
     }
@@ -52,6 +67,7 @@ public class DockerExecController {
             List<SearchItem> exec = connect.searchImagesByTag(keywords);
             return ResponseData.success(exec);
         } catch (Exception exception) {
+            log.error("搜索镜像失败",exception);
             return ResponseData.fail(ResultEnum.CONNECT_DOCKER_TIMEOUT.getMessage());
         }
     }
@@ -60,7 +76,7 @@ public class DockerExecController {
     public ResponseData buildTag (@PathVariable("userId") String userId,
                                   @Param("imageName") String imageName,
                                   @Param("image") String image,
-                                  @Param("tag") String tag) throws MyException {
+                                  @Param("tag") String tag) {
         DockerExec connect = uiDockerService.getClient(userId);
         if (connect.isExistLocalTag(image+":"+tag)) {
             return ResponseData.fail(ResultEnum.BUILD_TAG_EXIST.getMessage());
@@ -69,6 +85,7 @@ public class DockerExecController {
             connect.tagNew(imageName, image, tag);
             return ResponseData.success(MessageEnum.BUILD_TAG_SUCCESS.getMessage());
         } catch (Exception e) {
+            log.error("构建镜像失败",e);
             return ResponseData.fail(ResultEnum.BUILD_TAG_FAILED.getMessage());
         }
     }
@@ -81,8 +98,10 @@ public class DockerExecController {
             connect.removeImage(imageName);
             return ResponseData.success(MessageEnum.REMOVE_IMAGE_SUCCESS.getMessage());
         } catch (NotFoundException exception) {
+            log.error("未找到该镜像",exception);
             return ResponseData.fail(ResultEnum.NOT_FOUND_IMAGE.getMessage());
         } catch (Exception exception) {
+            log.error("删除镜像失败",exception);
             return ResponseData.fail(ResultEnum.REMOVE_IMAGE_FAILED.getMessage());
         }
     }
@@ -98,6 +117,15 @@ public class DockerExecController {
             imageVos = connect.searchLocalImagesByTag(keywords);
         }
         return ResponseData.success(imageVos);
+    }
+
+    @GetMapping("pull/{userId}")
+    public ResponseData pullImage (@PathVariable("userId") String userId) {
+        DockerExec connect = uiDockerService.getClient(userId);
+//        connect.pullImageCmd();
+
+
+        return null;
     }
 
 

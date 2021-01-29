@@ -11,7 +11,7 @@ public class OSUtil {
     public static String getCertPath () {
         String path = "";
         if (isLinux()) {
-            path = "/data/ftp/data/admin/certs/";
+            path = "/root/certs/";
         } else {
             path = "F:/docker/certs/";
         }
@@ -31,7 +31,7 @@ public class OSUtil {
     public static String getSecret () {
         String path = "";
         if (isLinux()) {
-            path = "/data/ftp/data/admin/secret/";
+            path = "/root/secret/";
         } else {
             path = "F:/docker/secret/";
         }

@@ -12,14 +12,13 @@
         <result column="version_api" property="versionApi" />
         <result column="register_url" property="registerUrl" />
         <result column="register_email" property="registerEmail" />
-        <result column="cert_path" property="certPath" />
         <result column="user_id" property="userId" />
         <result column="status" property="status" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        ui_docker.id,docker_ip,docker_port,docker_name,docker_pwd,version_api,register_url,register_email,cert_path,ui_docker.user_id,ui_docker.status
+        ui_docker.id,docker_ip,docker_port,docker_name,docker_pwd,version_api,register_url,register_email,ui_docker.user_id,ui_docker.status
     </sql>
 
     <select id="selectByIpAndPortAndUserId" resultMap="BaseResultMap" parameterType="com.jzz.pojo.UiDocker">

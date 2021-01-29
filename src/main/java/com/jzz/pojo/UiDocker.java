@@ -21,7 +21,6 @@ public class UiDocker implements Serializable {
     private String versionApi;
     private String registerUrl;
     private String registerEmail;
-    private String certPath;
     private String userId;
     @TableLogic()
     private int status;

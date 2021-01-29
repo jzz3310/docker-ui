@@ -1,11 +1,13 @@
 package com.jzz.tool;
 
 import com.github.dockerjava.api.DockerClient;
+import com.github.dockerjava.api.async.ResultCallback;
 import com.github.dockerjava.api.command.*;
 import com.github.dockerjava.api.exception.DockerException;
 import com.github.dockerjava.api.model.*;
 import lombok.Data;
 
+import java.io.Closeable;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
@@ -29,6 +31,7 @@ public class DockerExec implements DockerClient {
     public boolean isExistLocalTag(String imageName) {
         List<ImageVo> collect = searchLocalImagesByTag(imageName);
         if (null != collect && collect.size() > 0) {
+            boolean a = !"".equals("");
             return true;
         }
         return false;
@@ -51,6 +54,36 @@ public class DockerExec implements DockerClient {
     public Void removeImage(String s) {
         return dockerClient.removeImageCmd(s).exec();
     }
+
+    public void pullImage(String s) throws InterruptedException {
+//        ResultCallback<PullResponseItem> exec = dockerClient.pullImageCmd(s).exec(new ResultCallback<PullResponseItem>() {
+//            public void onStart(Closeable closeable) {
+//                System.out.println("开始下载!");
+//            }
+//
+//            public void onNext(PullResponseItem object) {
+//                // 实时显示出下载信息
+//                System.out.println(object.getStatus());
+//            }
+//
+//            public void onError(Throwable throwable) {
+//                throwable.printStackTrace();
+//            }
+//
+//            public void onComplete() {
+//                System.out.println("下载完毕!");
+//            }
+//
+//            public void close() throws IOException {
+//
+//            }
+//        });
+        dockerClient.pullImageCmd(s).exec(new PullImageResultCallback()).awaitCompletion();
+
+    }
+
+
+
 
 
     //---------------------------------------------------overried-----------------------------------------------------------

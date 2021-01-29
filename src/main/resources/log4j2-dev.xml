@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="INFO" monitorInterval="5">
+    <!--日志级别以及优先级排序: OFF > FATAL > ERROR > WARN > INFO > DEBUG > TRACE > ALL -->
+    <!--变量配置-->
+    <Properties>
+        <property name="LOG_PATTERN" value="[%date{YYYY/MM/dd HH:mm:ss.SSS}] [%thread] [%level] %logger{36} - %msg%n" />
+        <property name="FileName" value="E:\logs\docker-exec\docker-exec.log" />
+        <property name="RollingFileName" value="E:\logs\docker-exec\%d{yyyy-MM-dd}_%i.log.bak" />
+    </Properties>
+
+    <Appenders>
+        <!--控制台日志规则-->
+        <Console name="Console" target="SYSTEM_OUT" follow="true">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+        </Console>
+        <!--历史日志-->
+        <RollingFile name="FileInfo" fileName="${FileName}" filePattern="${RollingFileName}">
+            <!--日志输出规则-->
+            <PatternLayout>
+                <pattern>${LOG_PATTERN}</pattern>
+            </PatternLayout>
+            <!--日志切割条件-->
+            <Policies>
+                <SizeBasedTriggeringPolicy size="50 MB"/>
+            </Policies>
+        </RollingFile>
+        <!--优化log，子logger异步，父logger同步-->
+        <Async name="AsyncFileAppender" bufferSize="100">
+            <AppenderRef ref="FileInfo" />
+        </Async>
+        <Async name="AsyncConsoleAppender" bufferSize="1">
+            <AppenderRef ref="Console" />
+        </Async>
+
+    </Appenders>
+
+    <loggers>
+
+        <logger name="ASYNC_FILE_APPENDER" level="INFO" additivity="false">
+            <AppenderRef ref="AsyncFileAppender"/>
+        </logger>
+
+        <!--父logger-->
+        <root level="INFO">
+            <appender-ref ref="AsyncFileAppender"/>
+            <appender-ref ref="AsyncConsoleAppender"/>
+        </root>
+    </loggers>
+
+</configuration>
