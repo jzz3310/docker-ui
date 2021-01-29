@@ -1,6 +1,8 @@
 package com.jzz.util;
 
 import com.alibaba.fastjson.JSONObject;
+import info.xiancloud.core.util.LOG;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.codec.binary.Base64;
 
 import javax.crypto.Cipher;
@@ -13,6 +15,7 @@ import java.util.Map;
  * @author:jzz
  * @date:2021/1/15
  */
+@Slf4j
 public class AesEncryptUtils {
 
     //可配置到Constant中，并读取配置文件注入,16位,自己定义
@@ -47,7 +50,7 @@ public class AesEncryptUtils {
         try {
             return encrypt(content, KEY);
         } catch (Exception exception) {
-            exception.printStackTrace();
+            log.error("加密失败",exception);
         }
         return null;
     }
@@ -55,7 +58,7 @@ public class AesEncryptUtils {
         try {
             return decrypt(encryptStr, KEY);
         } catch (Exception exception) {
-            exception.printStackTrace();
+            log.error("解密失败",exception);
         }
         return null;
     }

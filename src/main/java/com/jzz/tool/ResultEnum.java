@@ -24,7 +24,7 @@ public enum ResultEnum {
     REMOVE_IMAGE_FAILED(113,"删除镜像失败"),
     NOT_FOUND_IMAGE(114,"未找到该镜像"),
     NOT_FOUND_INFO(114,"未找到连接信息"),
-
+    FTP_FAILED(115,"连接ftp服务器失败，请检查网络以及相关配置")
     ;
 
 

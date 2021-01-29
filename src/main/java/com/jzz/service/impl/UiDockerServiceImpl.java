@@ -1,7 +1,6 @@
 package com.jzz.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.github.dockerjava.api.DockerClient;
 import com.jzz.bean.DockerClientBeans;
 import com.jzz.data.ResponseData;
 import com.jzz.mapper.UiDockerMapper;
@@ -14,9 +13,8 @@ import com.jzz.tool.MyException;
 import com.jzz.tool.ResultEnum;
 import com.jzz.util.DockerClientUtil;
 import com.jzz.util.HostIpUtil;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.BoundListOperations;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -27,6 +25,7 @@ import java.util.List;
  * @date:2020/12/29
  */
 @Service
+@Slf4j
 public class UiDockerServiceImpl extends ServiceImpl<UiDockerMapper,UiDocker> implements UiDockerService {
 
     @Autowired
@@ -41,6 +40,7 @@ public class UiDockerServiceImpl extends ServiceImpl<UiDockerMapper,UiDocker> im
         try {
             dockerClient = DockerClientUtil.safetyConnection(uiDocker);
         } catch (Exception ex) {
+            log.error("docker连接失败",ex);
             throw new MyException(ResultEnum.EDITUSER_ID_NULL);
         }
         return ResponseData.success("连接成功",dockerClient);

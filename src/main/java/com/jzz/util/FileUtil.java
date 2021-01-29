@@ -1,10 +1,11 @@
 package com.jzz.util;
 
 import com.jzz.bean.FtpBean;
+import com.jzz.tool.MyException;
+import com.jzz.tool.ResultEnum;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.net.ftp.FTPClient;
 import org.apache.commons.net.ftp.FTPReply;
-import org.springframework.stereotype.Component;
-import org.springframework.web.multipart.MultipartFile;
 
 import java.io.*;
 
@@ -12,7 +13,7 @@ import java.io.*;
  * @author:jzz
  * @date:2020/12/11
  */
-@Component
+@Slf4j
 public class FileUtil {
 
     public static String uploadFtp(String dockerIp, InputStream inputStream, String filename) throws Exception {
@@ -26,8 +27,8 @@ public class FileUtil {
             ftp.setFileType(FTPClient.BINARY_FILE_TYPE);
             ftp.storeFile(filename, inputStream);
         } catch (IOException e) {
-//            throw new MyException(ResultEnum.UPLOAD_FTP_FAILD);
-            e.printStackTrace();
+            log.error("ftp上传文件失败",e);
+            throw new MyException(ResultEnum.UPLOAD_FTP_FAILD);
         } finally {
             FtpBean.disConnect(ftp);
         }
@@ -45,15 +46,16 @@ public class FileUtil {
             ftp.login(username, password);
             if (!FTPReply.isPositiveCompletion(ftp.getReplyCode())) {
                 ftp.disconnect();
-                new Exception("连接ftp服务器失败，请检查网络以及相关配置").printStackTrace();
+                log.error("ftp连接失败");
+                throw new MyException(ResultEnum.FTP_FAILED);
             }
         } catch (IOException e) {
             try {
                 ftp.disconnect();
             } catch (IOException ioException) {
-                new Exception("连接ftp服务器失败，请检查网络以及相关配置").printStackTrace();
+                throw new MyException(ResultEnum.FTP_FAILED);
             }
-            new Exception("连接ftp服务器失败，请检查网络以及相关配置").printStackTrace();
+            throw new MyException(ResultEnum.FTP_FAILED);
         }
         return ftp;
     }
@@ -70,8 +72,8 @@ public class FileUtil {
                 out.write(bytes);
             }
         } catch (IOException e) {
-            e.printStackTrace();
-            return "";
+            log.error("上传文件到本地失败");
+            throw e;
         } finally {
             inputStream.close();
             out.close();

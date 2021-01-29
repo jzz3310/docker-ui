@@ -2,6 +2,8 @@ package com.jzz.bean;
 
 import com.jzz.tool.FtpInfo;
 import com.jzz.util.FileUtil;
+import info.xiancloud.core.util.LOG;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.net.ftp.FTPClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -14,6 +16,7 @@ import java.io.IOException;
  * @date:2020/12/11
  */
 @Component
+@Slf4j
 public class FtpBean {
 
     private static FtpInfo ftpInfo;
@@ -33,6 +36,7 @@ public class FtpBean {
             try {
                 ftpClient.disconnect();
             } catch (IOException e) {
+                log.error("连接失败",e);
             }
         }
     }

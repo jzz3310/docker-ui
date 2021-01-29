@@ -1,11 +1,14 @@
 package com.jzz.tool;
 
+import lombok.extern.slf4j.Slf4j;
+
 import java.security.NoSuchAlgorithmException;
 
 /**
  * @author:jzz
  * @date:2020/12/29
  */
+@Slf4j
 public class EncryptionByMD5 {
     private final static char hexDigits[] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
             'a', 'b', 'c', 'd', 'e', 'f' };// 用来将字节转换成16进制表示的字符
@@ -32,8 +35,7 @@ public class EncryptionByMD5 {
             s = new String(str);// 换后的结果转换为字符串
 
         } catch (NoSuchAlgorithmException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+            log.error("用户密码加密失败",e);
         }
         return s;
     }
